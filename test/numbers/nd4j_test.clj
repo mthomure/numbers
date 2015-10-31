@@ -2,7 +2,7 @@
   (:refer-clojure :exclude [rand min max])
   (:import [org.nd4j.linalg.factory Nd4j])
   (:require [midje.sweet :refer :all]
-            [with-nd4j.nd4j :refer :all]))
+            [numbers.nd4j :refer :all]))
 
 (def EMPTY-ARRAY (Nd4j/create (double-array 0)))
 
