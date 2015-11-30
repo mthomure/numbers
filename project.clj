@@ -5,8 +5,12 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.7.0"]
 
+                 ;; linear algebra
+
                  [org.nd4j/nd4j-jblas "0.4-rc3.5"]
 
+
+                 [org.jblas/jblas "1.2.4"]
                  ]
   :profiles {:dev {:dependencies [[midje "1.6.3"]]
                    :plugins [[lein-midje "3.1.3"]]}})
