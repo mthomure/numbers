@@ -10,6 +10,8 @@
                  [org.nd4j/nd4j-jblas "0.4-rc3.5"]
 
 
+                 [org.ejml/all "0.28"]
+
                  [org.jblas/jblas "1.2.4"]
                  ]
   :profiles {:dev {:dependencies [[midje "1.6.3"]]
